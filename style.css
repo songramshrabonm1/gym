@@ -86,22 +86,26 @@ body{
     margin: 10px;
     border-radius: 8px;
     box-shadow: 10px 10px 10px grey;
-    transition: 8ms;
+    transition: .8ms;
 }
 .first-box:hover{
     border: 1px solid crimson;
-    transition: 8ms;
+    transition: .8ms;
     margin-top: -10px;
+    cursor: pointer;
 }
 .second-box:hover{
     border: 1px solid crimson;
-    transition: 8ms;
+    transition: .8ms;
     margin-top: -10px;
+    cursor: pointer;
+    
 }
 .third-box:hover{
     border: 1px solid crimson;
-    transition: 8ms;
+    transition: .8ms;
     margin-top: -10px;
+    cursor: pointer;
 }
 .Third-text{
         margin-top: 60px;
@@ -112,19 +116,100 @@ body{
     color: white;
     width: 100%;
     height: 100%;
-    margin: 20px;
+    align-items: center;
+
 }
 .tthird{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
 }
+.trd{
+    margin-left: 50%;
+}
 .pic-1{
     width: 30%;
-    width: 98px;
-    height: 350px;
+    width: 198px;
+    height: 400px;
+    margin-bottom: 21px;
+}
+
+.workout-img{
+    display: flex;
+    transform: skewY(-15deg);
 }
 
 
+.btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn{
+    background-image: linear-gradient(red,black);
+    padding: 5px;
+    border-radius: 9px;
+    background-color: brown;
+    transition: .8ms;
+    margin-top: -1px;
+}
+.btn :hover{
+    transition: .8ms;
+    margin-top: -1px;
+    background-color: brown;
+    cursor: pointer;
+}
+.part-1 div img{
+    height: 250px;
+    
+}
+.part-1{
+    border: 1px solid red;
+    margin: 40px;
+}
+.txt-styl{
+    text-align: center;   
+}
+.part-2 div img{
+    width: 303px;
+    height: 250px;
+}
+.part-2{
+    border: 1px solid red;
+    margin: 40px;  
+}
+.part-3 div img{
+    width: 250px;
+    height: 250px;
+}
+.part-3{
+    border: 1px solid red;
+    margin: 40px;
+}
+.two{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    background-color: black;
+    color: rgba(169, 158, 81, 0.853);
+}
 
+.part-1:hover{
+    border: 1px solid rgb(142, 112, 83);
+    cursor: pointer;
+    transition: .8ms;
+    margin-top: 20px;
+}
+.part-2:hover{
+    border: 1px solid rgb(142, 112, 83);
+    cursor: pointer;
+    transition: .8ms;
+    margin-top: 20px;
+}
+.part-3:hover{
+    border: 1px solid rgb(142, 112, 83);
+    cursor: pointer;
+    transition: .8ms;
+    margin-top: 20px;
+}
