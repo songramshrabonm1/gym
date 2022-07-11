@@ -150,14 +150,14 @@ body{
     background-image: linear-gradient(red,black);
     padding: 5px;
     border-radius: 9px;
-    background-color: brown;
+    border: 1px solid rgba(255, 72, 0, 0.739);
     transition: .8ms;
     margin-top: -1px;
 }
 .btn :hover{
     transition: .8ms;
     margin-top: -1px;
-    background-color: brown;
+    border: 1px solid rgba(234, 0, 255, 0.739);
     cursor: pointer;
 }
 .part-1 div img{
@@ -167,6 +167,7 @@ body{
 .part-1{
     border: 1px solid red;
     margin: 40px;
+    box-shadow: 10px 5px 25px red;
 }
 .txt-styl{
     text-align: center;   
@@ -174,10 +175,12 @@ body{
 .part-2 div img{
     width: 303px;
     height: 250px;
+    
 }
 .part-2{
     border: 1px solid red;
     margin: 40px;  
+    box-shadow: 10px 5px 25px red;
 }
 .part-3 div img{
     width: 250px;
@@ -186,6 +189,8 @@ body{
 .part-3{
     border: 1px solid red;
     margin: 40px;
+    box-shadow: 10px 5px 25px red;
+    
 }
 .two{
     display: flex;
@@ -212,4 +217,40 @@ body{
     cursor: pointer;
     transition: .8ms;
     margin-top: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.part-5{
+    text-align: center;
+    background-color: rgba(155, 6, 6, 0.936);
+    
+}
+.payment img{
+    margin-left: 70px;
+}
+hr{
+    width: 70%;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div img{
+    margin-left:30px ;
+}
+div img:hover{
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: brown;
+}
+footer p{
+    
+    text-align: center;
 }
