@@ -160,14 +160,19 @@ body{
     border: 1px solid rgba(234, 0, 255, 0.739);
     cursor: pointer;
 }
+
 .part-1 div img{
     height: 250px;
     
 }
 .part-1{
     border: 1px solid red;
-    margin: 40px;
-    box-shadow: 10px 5px 25px red;
+    margin: 30px;
+    box-shadow: 5px 5px 25px red;
+}
+,.batch-img{
+    width: 2px;
+    height: 5px;
 }
 .txt-styl{
     text-align: center;   
@@ -177,10 +182,16 @@ body{
     height: 250px;
     
 }
+
+.batch-img{
+    width: 5px;
+    height: 2px;
+
+}
 .part-2{
     border: 1px solid red;
-    margin: 40px;  
-    box-shadow: 10px 5px 25px red;
+    margin: 30px;  
+    box-shadow: 5px 5px 25px red;
 }
 .part-3 div img{
     width: 250px;
@@ -188,8 +199,8 @@ body{
 }
 .part-3{
     border: 1px solid red;
-    margin: 40px;
-    box-shadow: 10px 5px 25px red;
+    margin: 15px;
+    box-shadow: 5px 5px 25px red;
     
 }
 .two{
@@ -198,6 +209,7 @@ body{
     height: 100%;
     background-color: black;
     color: rgba(169, 158, 81, 0.853);
+    position: relative;
 }
 
 .part-1:hover{
@@ -250,6 +262,7 @@ div img:hover{
     border: 1px solid red;
     background-color: brown;
 }
+
 footer p{
     
     text-align: center;
