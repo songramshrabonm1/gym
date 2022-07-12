@@ -239,10 +239,29 @@ body{
 .part-5{
     text-align: center;
     background-color: rgba(155, 6, 6, 0.936);
+    margin: 80px;
+    border-radius: 30px;
     
 }
+
 .payment img{
     margin-left: 70px;
+}
+.part-halffourth{
+    background-image:url(images/shape/Group_33094_1.png);
+    width: 70vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.part-halffourth button{
+    margin-left: 220px;
+}
+
+.part-halffourth h1{
+    padding-top: 35px;
+    padding-left: 150px;
 }
 hr{
     width: 70%;
