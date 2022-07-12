@@ -256,12 +256,13 @@ body{
     margin-right: 10%;
 }
 .part-halffourth button{
-    margin-left: 220px;
+    margin-left: 50%;
+    margin-right: 30%;
 }
 
 .part-halffourth h1{
     padding-top: 35px;
-    padding-left: 150px;
+    padding-left: 40%;
 }
 hr{
     width: 70%;
