@@ -160,6 +160,15 @@ body{
     border: 1px solid rgba(234, 0, 255, 0.739);
     cursor: pointer;
 }
+.batch{
+    position: relative;
+}
+.batch-icon{
+    width: 55px;
+    height: 2%;
+    margin-top: -160px;
+    position: absolute;
+}
 
 .part-1 div img{
     height: 250px;
@@ -170,10 +179,7 @@ body{
     margin: 30px;
     box-shadow: 5px 5px 25px red;
 }
-,.batch-img{
-    width: 2px;
-    height: 5px;
-}
+
 .txt-styl{
     text-align: center;   
 }
@@ -183,11 +189,7 @@ body{
     
 }
 
-.batch-img{
-    width: 5px;
-    height: 2px;
 
-}
 .part-2{
     border: 1px solid red;
     margin: 30px;  
